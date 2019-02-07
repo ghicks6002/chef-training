@@ -5,7 +5,7 @@
 # Copyright (c) 2019 The Authors, All Rights Reserved.
 #install apache package
 
-if node['plaform_family'] == "rhel"
+if node['platform_family'] == "rhel"
 	package = "httpd"
 elsif node['platform_family'] == "debian"
 	package = "apache2"
